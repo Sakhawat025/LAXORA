@@ -1,0 +1,4 @@
+import Link from 'next/link';
+import TeamVision from '../../components/TeamVision';
+export const metadata={title:'Our Team | LAXORA',description:'Meet the team behind LAXORA and our shared vision for accessible legal connections.'};
+export default function TeamPage(){return <div className="landing"><nav className="landing-nav" aria-label="Team navigation"><Link href="/" className="landing-brand"><img src="/logo.png" alt="LAXORA"/><span>LAXORA<small>LEGAL CONNECTIONS</small></span></Link><div style={{display:'flex',gap:20,flexWrap:'wrap',alignItems:'center'}}><Link href="/" style={{color:'white'}}>Home</Link><Link href="/lawyers" style={{color:'white'}}>Find a lawyer</Link><Link href="/client/login" className="btn gold">Sign in</Link></div></nav><main><TeamVision/></main><footer className="landing-footer"><Link href="/">Back to LAXORA</Link><small>Your Rights. Your Counsel. Your Confidence.</small></footer></div>;}
