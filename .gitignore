@@ -1,0 +1,47 @@
+.env
+.env.local
+node_modules/
+.next/
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.tsbuildinfo
+uploads/
+backups/
+*.db
+
+# Secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+
+# Backups and uploaded private files
+backups/
+uploads/
+*.dump
+*.sql
+*.tar
+
+# Dependencies and generated files
+node_modules/
+.next/
+out/
+dist/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.db
+*.sqlite*
+*.log
+
+# Editor and OS files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
